@@ -3,16 +3,17 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title>Inicio</ion-title>
   </ion-navbar>
 </ion-header>
-
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
+  <h3 class="ele-center">MADRIDPOLITY</h3>
+  <p>Bienvenidos a la app para calificar los gobernantes de Madrid, Cundinamarca
+    por mucho tiempo se han reido de nosotros es momento de burlarnos de ellos.
   </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+  <button ion-button full [navPush]="registerPage">
+    Registrarme
+  </button>
+  <hr>
+  <p> Ya tengo una cuenta <a [navPush]="loginPage">entrar</a></p>
 </ion-content>

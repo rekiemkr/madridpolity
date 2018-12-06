@@ -1,14 +1,12 @@
-import { Component } from '@angular/core';
-import { NavController } from 'ionic-angular';
+import { Component } from "@angular/core";
+import { RegisterPage } from "../register/register";
+import { LoginPage } from "../login/login";
 
 @Component({
-  selector: 'page-home',
-  templateUrl: 'home.html'
+  selector: "page-home",
+  templateUrl: "home.html"
 })
 export class HomePage {
-
-  constructor(public navCtrl: NavController) {
-
-  }
-
+  loginPage = LoginPage;
+  registerPage = RegisterPage;
 }

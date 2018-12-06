@@ -1,5 +1,7 @@
 {
   "name": "Madridpolity",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "email": "cfelipevargas97@gmail.com",
+  "version": "0.01"
 }
