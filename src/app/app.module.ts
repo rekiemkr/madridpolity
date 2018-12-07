@@ -10,6 +10,7 @@ import { RegisterPage} from '../pages/register/register';
 import { ContactPage} from '../pages/contact/contact';
 import { PoliticsPage } from '../pages/politics/politics';
 import { PolitiContentPage } from '../pages/politi-content/politi-content';
+import { ComentsPage} from '../pages/coments/coments';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +25,8 @@ import { HttpClientModule} from '@angular/common/http';
     RegisterPage,
     ContactPage,
     PoliticsPage,
-    PolitiContentPage
+    PolitiContentPage,
+    ComentsPage,
   ],
   imports: [
     BrowserModule,
@@ -39,7 +41,8 @@ import { HttpClientModule} from '@angular/common/http';
     RegisterPage,
     ContactPage,
     PoliticsPage,
-    PolitiContentPage
+    PolitiContentPage,
+    ComentsPage,
   ],
   providers: [
     StatusBar,

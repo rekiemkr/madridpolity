@@ -50,16 +50,29 @@
       {
         "title": "Partido",
         "name": "Opción Ciudadana"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
       }
     ]
   },
   {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
+    "id": "3",
+    "nombre": "Orlando Cardona Rojas",
+    "items": [{
+        "title": "Cargo",
+        "name": "Alcalde"
+      },
+      {
+        "title": "Estudio",
+        "name": "Magister en Derecho"
+      },
+      {
+        "title": "Partido",
+        "name": "Independiente"
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "nombre": "Carlos Alberto Chavez Moya",
     "items": [{
         "title": "Cargo",
         "name": "Concejal"
@@ -71,16 +84,63 @@
       {
         "title": "Partido",
         "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
       }
     ]
   },
   {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
+    "id": "5",
+    "nombre": "Andrés Felipe Montoya Adarve",
+    "items": [{
+        "title": "Cargo",
+        "name": "Concejal"
+      },
+      {
+        "title": "Estudio",
+        "name": "Contador Publico"
+      },
+      {
+        "title": "Partido",
+        "name": "Verde"
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "nombre": "Fernando Morales Castellanos",
+    "items": [{
+        "title": "Cargo",
+        "name": "Concejal"
+      },
+      {
+        "title": "Estudio",
+        "name": "Septimo Grado"
+      },
+      {
+        "title": "Partido",
+        "name": "ASI"
+      }
+    ]
+  },
+  {
+    "id": "7",
+    "nombre": "Harold Arley Naranjo Coy",
+    "items": [{
+        "title": "Cargo",
+        "name": "Concejal"
+      },
+      {
+        "title": "Estudio",
+        "name": "Abogado"
+      },
+      {
+        "title": "Partido",
+        "name": "AICO"
+      }
+    ]
+  },
+  {
+    "id": "8",
+    "nombre": "Hawer Silva Marín",
     "items": [{
         "title": "Cargo",
         "name": "Concejal"
@@ -91,17 +151,13 @@
       },
       {
         "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
+        "name": "Conservador"
       }
     ]
   },
   {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
+    "id": "9",
+    "nombre": "Héctor Alfonso Padilla Baquero",
     "items": [{
         "title": "Cargo",
         "name": "Concejal"
@@ -112,116 +168,24 @@
       },
       {
         "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
+        "name": "Conservador"
       }
     ]
   },
   {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
+    "id": "10",
+    "nombre": "Jhon Jairo Bohórquez Triana",
     "items": [{
         "title": "Cargo",
         "name": "Concejal"
       },
       {
         "title": "Estudio",
-        "name": "Bachiller academico"
+        "name": "Especialista en Gerencia"
       },
       {
         "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
-    "items": [{
-        "title": "Cargo",
-        "name": "Concejal"
-      },
-      {
-        "title": "Estudio",
-        "name": "Bachiller academico"
-      },
-      {
-        "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
-    "items": [{
-        "title": "Cargo",
-        "name": "Concejal"
-      },
-      {
-        "title": "Estudio",
-        "name": "Bachiller academico"
-      },
-      {
-        "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
-    "items": [{
-        "title": "Cargo",
-        "name": "Concejal"
-      },
-      {
-        "title": "Estudio",
-        "name": "Bachiller academico"
-      },
-      {
-        "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
-      }
-    ]
-  },
-  {
-    "id": "1",
-    "nombre": "José Dolores Giraldo Duque",
-    "items": [{
-        "title": "Cargo",
-        "name": "Concejal"
-      },
-      {
-        "title": "Estudio",
-        "name": "Bachiller academico"
-      },
-      {
-        "title": "Partido",
-        "name": "Liberal"
-      },
-      {
-        "title": "Alias",
-        "name": "Chepe"
+        "name": "De la U"
       }
     ]
   }

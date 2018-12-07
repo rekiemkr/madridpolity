@@ -3,6 +3,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { HttpClient } from '@angular/common/http';
 import { LoadingController } from 'ionic-angular';
 import { PoliticsPage } from '../politics/politics';
+import { ComentsPage } from '../coments/coments';
 /**
  * Generated class for the PolitiContentPage page.
  *
@@ -18,6 +19,7 @@ export class PolitiContentPage {
   idpol:number;
   polts:any;
   politicos = PoliticsPage;
+  coment = ComentsPage;
   constructor(public navCtrl: NavController, public navParams: NavParams, public http: HttpClient,
     public loadingCtrl: LoadingController) {
     this.idpol = navParams.data;
