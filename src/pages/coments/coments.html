@@ -7,7 +7,9 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>coments</ion-title>
+    <ion-title>
+      coments
+    </ion-title>
   </ion-navbar>
 
 </ion-header>
@@ -26,15 +28,14 @@
       <button ion-button block>Comentar</button>
     </ion-item>
   </ion-list>
-  <hr>
-  <ion-list>
-    <ion-item>
+  <ion-list *ngFor="let item of items">
+    <ion-item *ngIf="idpol == item.id_politico">
       <ion-avatar item-start>
         <img src="../../assets/imgs/avatar.png">
       </ion-avatar>
-      <h2>Carlos12</h2>
-      <h3>Muy malo</h3>
-      <p>Este consejal ha estado durante 8 años en el poder y no ha hecho nada por la ciudadania</p>
+      <h2>{{item.username}}</h2>
+      <h3>{{item.titulo}}</h3>
+      <p>{{item.subtitulo}}</p>
     </ion-item>
   </ion-list>
 

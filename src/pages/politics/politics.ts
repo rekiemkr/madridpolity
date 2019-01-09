@@ -24,10 +24,9 @@ export class PoliticsPage {
   }
   
   nombrePoliticos(){
-    this.http.get("../../assets/data/politics.json")
+    this.http.get("https://madridpolity.firebaseio.com/politicos.json")
       .subscribe( (res:any) => {
         this.items = res;
-        console.log(this.items);
         const loader = this.loadingCtrl.create({
           content: "Espere por favor...",
           duration: 10

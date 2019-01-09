@@ -20,7 +20,7 @@
 <ion-content>
   <ion-list *ngIf="polts">
     <ion-card>
-      <img class="perfil-photo" src="../../assets/imgs/politic-{{idpol}}.jpg"/>
+      <img class="perfil-photo" src="../../assets/imgs/politic-{{idpol}}.jpg" />
       <ion-card-content>
         <ion-card-title>
           <h2>{{polts[idpol].nombre}}</h2>
@@ -34,27 +34,24 @@
       </ion-note>
     </ion-item>
     <div class="cal">
-      <form>
-        <p class="clasificacion">
-          <input id="radio1" type="radio" name="estrellas" value="5">
+      <form #form="ngForm" (ngSubmit)="submit()" [formGroup]="calForm" novalidate>
+        <p class="clasificacion" radio-group>
+          <input id="radio1" formControlName="cal5" type="radio" name="cal5" value="5">
           <label for="radio1">★</label>
-          <input id="radio2" type="radio" name="estrellas" value="4">
+          <input id="radio2" formControlName="cal4"  type="radio" name="cal4" value="4">
           <label for="radio2">★</label>
-          <input id="radio3" type="radio" name="estrellas" value="3">
+          <input id="radio3" formControlName="cal3" type="radio" name="cal3" value="3">
           <label for="radio3">★</label>
-          <input id="radio4" type="radio" name="estrellas" value="2">
+          <input id="radio4" formControlName="cal2" type="radio" name="cal2" value="2">
           <label for="radio4">★</label>
-          <input id="radio5" type="radio" name="estrellas" value="1">
+          <input id="radio5" formControlName="cal1" type="radio" name="cal1" value="1">
           <label for="radio5">★</label>
         </p>
+        <div class="mybutton">
+          <button ion-button block type="submit">Calificar</button><br>
+          <button ion-button block color="secondary" [navPush]="coment" [navParams]="idpol">Comentarios</button>
+        </div>
       </form>
     </div>
   </ion-list>
-  <div class="mybutton">
-    <button ion-button block>Calificar</button><br>
-    <button ion-button block color="secondary" [navPush]="coment" >Comentarios</button>
-  </div>
-  <div class="mybutton">
-      
-    </div>
 </ion-content>

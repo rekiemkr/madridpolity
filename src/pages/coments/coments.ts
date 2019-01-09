@@ -1,5 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
+import { HttpClient } from '@angular/common/http';
+import { LoadingController } from 'ionic-angular';
 
 /**
  * Generated class for the ComentsPage page.
@@ -13,9 +15,23 @@ import { NavController, NavParams } from 'ionic-angular';
   templateUrl: 'coments.html',
 })
 export class ComentsPage {
-
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
+  idpol:number;
+  items: any;
+  constructor(public navCtrl: NavController, public navParams: NavParams, public http:HttpClient,
+    public loadingCtrl: LoadingController) {
+      this.idpol = navParams.data;
+      this.cargarComentarios();
   }
-
+  cargarComentarios(){
+    this.http.get("https://madridpolity.firebaseio.com/comentarios.json")
+      .subscribe( (res:any) => {
+        this.items = res;
+        const loader = this.loadingCtrl.create({
+          content: "Espere por favor...",
+          duration: 10
+        });
+        loader.present();
+      });
+  }
 
 }

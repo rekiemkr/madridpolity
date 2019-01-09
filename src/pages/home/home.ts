@@ -1,5 +1,4 @@
 import { Component } from "@angular/core";
-import { RegisterPage } from "../register/register";
 import { LoginPage } from "../login/login";
 
 @Component({
@@ -8,5 +7,4 @@ import { LoginPage } from "../login/login";
 })
 export class HomePage {
   loginPage = LoginPage;
-  registerPage = RegisterPage;
 }
